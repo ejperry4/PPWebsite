@@ -17,11 +17,6 @@
   position: relative;
 }
 
-.tempr:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .carousel-item > img {
   width: 70%;
