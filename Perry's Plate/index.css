@@ -1,3 +1,7 @@
+.jumbotron {
+  background-color: rgb(46, 56, 91)
+}
+
 .height {
   height: 500px;
   margin-bottom: 100px;
@@ -9,17 +13,12 @@
   height: 100%;
 }
 
-.buttons {
-  color: black;
-}
-
 .carousel-indicators {
   position: relative;
 }
 
-
-.carousel-item > img {
-  width: 70%;
-  height: 70%;
-  cursor: help;
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
 }
