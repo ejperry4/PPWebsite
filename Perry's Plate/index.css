@@ -31,3 +31,14 @@ main {
   height: 10px;
   border-radius: 100%;
 }
+
+.two {
+  width: 30%;
+  width: 30%;
+}
+
+.carousel-item > img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
