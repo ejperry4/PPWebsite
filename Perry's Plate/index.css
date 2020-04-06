@@ -1,4 +1,4 @@
-main {
+body {
   background-color: rgb(122, 182, 215);
   font-family: Verdana, Geneva, sans-serif;
   font-size: 16px;
@@ -9,6 +9,7 @@ main {
 .jumbotron {
   background-color: rgb(46, 56, 91);
   border-radius: 0;
+  height: 120px;
 }
 
 .height {
@@ -16,6 +17,9 @@ main {
   margin-bottom: 100px;
 }
 
+.container {
+  margin-bottom: 200px;
+}
 .mycarousel {
   margin-top: 50px;
   width: 100%;
@@ -26,19 +30,17 @@ main {
   position: relative;
 }
 
-.carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-}
-
-.two {
-  width: 30%;
-  width: 30%;
+.carousel-control-prev-icon,  .carousel-control-next-icon {
+  position: ;
 }
 
 .carousel-item > img {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+#two {
+  width: 600px;
+  height: 600px;
 }
