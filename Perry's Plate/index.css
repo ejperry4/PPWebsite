@@ -9,6 +9,7 @@ main {
 .jumbotron {
   background-color: rgb(46, 56, 91);
   border-radius: 0;
+  height: 30;
 }
 
 .height {
