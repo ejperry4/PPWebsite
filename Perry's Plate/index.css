@@ -9,7 +9,22 @@ body {
 .jumbotron {
   background-color: rgb(46, 56, 91);
   border-radius: 0;
-  height: 120px;
+  height: 200px;
+}
+
+.container-fluid {
+  max-width: 100%;
+}
+
+.imageright {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#logo {
+  width: 100%;
+  height: 100%;
 }
 
 .height {
