@@ -7,6 +7,8 @@ body {
 }
 
 .jumbotron {
+  padding: 0;
+  width: 100%;
   background-color: rgb(46, 56, 91);
   border-radius: 0;
   height: 200px;
@@ -16,10 +18,17 @@ body {
   max-width: 100%;
 }
 
-.imageright {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+#topnav {
+  margin: auto;
+  position: relative;
+  top: 90px;
+  left: 70px;
+}
+
+#topnav > a {
+  font-size: 26px;
+  color: rgb(117,213,239);
+  margin: 5px;
 }
 
 #logo {
