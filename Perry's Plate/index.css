@@ -6,34 +6,149 @@ body {
   line-height: 1.6em
 }
 
-.jumbotron {
-  padding: 0;
-  width: 100%;
-  background-color: rgb(46, 56, 91);
-  border-radius: 0;
-  height: 200px;
+/* Begin CSS For Jumbotron and Navigational Control */
+
+.clearfix {
+  *zoom: 1;
 }
 
-.container-fluid {
-  max-width: 100%;
+.clearfix:before, .clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
 }
 
-#topnav {
-  margin: auto;
-  position: relative;
-  top: 90px;
-  left: 5%;
+.clearfix:after {
+  clear: both;
 }
 
-#topnav > a {
-  font-size: 26px;
-  color: rgb(117,213,239);
-  margin: 5px;
+.container {
+    width: 100%;
+    margin: 0 auto;
 }
 
-#logo {
-  width: 100%;
-  height: 100%;
+header {
+    width: 100%;
+    height: 300px;
+    background:rgb(46,56,91);
+}
+
+.header-left, .header-right {
+  width: 100%;  
+}
+
+.header-left > img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.header-right {
+    width: 100%;
+    text-align: center;
+}
+
+#open {
+    display: none;
+}
+
+.header-right > nav >a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(117,213,239);
+}
+nav>a {
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 40px;
+    padding: 0 2em;
+    -webkit-transition: all .3s ease;
+}
+
+nav>a:hover {
+    background: rgba(255,255,255,.9);
+    color: black;
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    
+    .box {
+        width: 49%;
+        margin-bottom: 5%;
+    }
+
+    ul li:nth-child(3) .box {
+        clear: both;
+    }
+
+    ul li:nth-child(2n) .box {
+        margin-right: 0;
+        clear: right;
+    }
+}
+
+/* Small monitor */
+@media (max-width: 979px){
+    nav > a {
+        padding: 0 1.5em;
+    }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .container {
+        width: 95%;
+    }
+
+    nav>a {
+        padding: 0 2em;
+    }
+
+    h1 {
+        padding: .5em 0;
+    }
+
+    .header-left, .header-right {
+        width: 100%;
+        text-align: center;
+    }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    body {
+        padding: 0 .5em;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    nav {
+        height: 0;
+        overflow: hidden;
+        -webkit-transition: all .3s ease;
+    }
+
+    nav > a {
+        padding: 0 1em;
+        display: block;
+        border-bottom: solid 1px rgba(255,255,255,.1);
+    }
+
+    .header-left, .header-right {
+        width: 100%;
+        text-align: center;
+    }
+}
+    
+    
+/* Begin CSS For Main Part of Page Containing Carousel and Headings */
+
+.welcome > h1 {
+  text-align: center;
 }
 
 .height {
