@@ -34,8 +34,6 @@ body {
     margin: 0 auto;
 }
 
-
-
 .header-left, .header-right {
   width: 100%;  
 }
@@ -60,7 +58,7 @@ body {
     font-size: 25px;
     color: rgb(117,213,239);
 }
-nav>a {
+nav > a {
     position: relative;
     display: inline-block;
     font-size: 13px;
@@ -69,9 +67,9 @@ nav>a {
     -webkit-transition: all .3s ease;
 }
 
-nav>a:hover {
-    background: rgba(255,255,255,.9);
-    color: black;
+nav > a:hover {
+    background: rgb(117,213,239);
+    color: rgb(46,56,91);
 }
 
 /* Portrait tablet to landscape and desktop */
