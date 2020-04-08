@@ -11,6 +11,7 @@ body {
   font-weight: 600;
   line-height: 1.6em
 
+
 }
 
 /* Begin CSS For Jumbotron and Navigational Control */
@@ -191,6 +192,9 @@ nav > a:hover {
   border:5px solid #ccc;
   padding:10px;
   box-sizing:border-box;
+  margin-top:20px;
+  margin-bottom: 20px;
+  margin:20px 0;
 }
 .block2 {
   float:left;
@@ -198,6 +202,11 @@ nav > a:hover {
   border:5px solid #ccc;
   padding:10px;
   box-sizing:border-box;
+  margin-top:20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 40px;
+
 }
 .block3 {
   float:left;
@@ -206,6 +215,9 @@ nav > a:hover {
   padding:10px;
   box-sizing:border-box;
   border-spacing: 20px
+  margin-top:20px;
+  margin-bottom: 20px;
+  margin:20px 0;
 }
 
 
