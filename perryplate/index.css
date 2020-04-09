@@ -206,7 +206,9 @@ nav > a:hover {
 #hours {
   color: white;
   text-align: center;
-  
+  margin-right: auto;
+  margin-left: auto;
+
 }
 
 /* #bottom {
