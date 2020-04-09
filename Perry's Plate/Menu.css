@@ -1,0 +1,7 @@
+.container {
+    background: white;
+}
+
+.row > div {
+    margin: 1px;
+}
