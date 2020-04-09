@@ -152,9 +152,9 @@ nav > a:hover {
 .welcome > h1, h4 {
   text-align: center;
 }
-/
+
 .picturecontainer { 
-  background-image: url(../PP_Photos/PPFrontWindowFromInside.jpg);
+  background-image: url(/Users/Charlie_Ziegenbein/Desktop/GHProject/PerrysPlate/PPWebsite/perryplate/PP_Photos/PPFood3.jpg);
  }
 
 .height {
@@ -291,8 +291,12 @@ nav > a:hover {
   top: -4em;
   width: 90%;
   z-index: -1;
+  text-align: center;
 }
-.underpage > p {
+.underpage > a {
   margin-top: 50px;
-
+  font-size: 30px;
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(46,56,91);
 }
