@@ -153,6 +153,10 @@ nav > a:hover {
   text-align: center;
 }
 
+.picturecontainer { 
+  background-image: url(../PP_Photos/PPFrontWindowFromInside.jpg);
+ }
+
 .height {
   height: 500px;
   margin-bottom: 100px;
@@ -192,7 +196,7 @@ nav > a:hover {
 #bottom {
   box-sizing: border-box;
   padding: 25px 0;
-  min-height: 50vh;
+  min-height: 0vh;
 }
 
 /* #bottom {
