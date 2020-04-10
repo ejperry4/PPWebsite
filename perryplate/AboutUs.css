@@ -1,0 +1,8 @@
+article {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: justify;
+	border: 2px solid #ddd;
+	margin: 15px;
+	width: 600px;
+}
