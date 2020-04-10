@@ -206,8 +206,7 @@ nav > a:hover {
 #hours {
   color: white;
   text-align: center;
-  margin-right: auto;
-  margin-left: auto;
+
 
 }
 
@@ -311,4 +310,12 @@ nav > a:hover {
   text-decoration: none;
   display: inline-block;
   color: rgb(46,56,91);
+}
+article
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    width: 625px;
+    margin-right: 15px;
 }

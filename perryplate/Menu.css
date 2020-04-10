@@ -12,9 +12,18 @@
 
 .row > div {
     padding: 20px;
+    margin: 5px;
 }
 
-.block1 {
+article
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    width: 625px;
+    margin-right: 15px;
+}
+/*.block1 {
   border: 5px solid #ccc;
   box-sizing:border-box;
   margin: 0;
