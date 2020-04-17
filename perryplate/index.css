@@ -316,21 +316,21 @@ nav > a:hover {
   color: rgb(46,56,91);
 }
 .display-4 {
-  color: hsl(227, 32.8%, 26.9%);
+  color: white;
   padding: 10px;
 }
 
 .students {
   padding: 10px;
   padding-bottom: 20px;
-  background-color: white;
+  
 }
 
 .cards {
   height: 100%;
-  background-color: white;
   border: 1px solid grey;
   border-radius: 5px;
+  background-color: white;
 }
 
 .cards > img {
