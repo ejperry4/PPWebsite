@@ -336,10 +336,10 @@ nav > a:hover {
 .cards > img {
   width: 100%;
   height: 55%;
-  padding: 5px;
+
 }
 footer {
-  background-color: #3f3f3f;
+  background-color: rgb(46,56,91);;
   color: #d5d5d5;
   padding-top: 2rem;
 }
