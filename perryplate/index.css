@@ -194,6 +194,9 @@ nav > a:hover {
   width: 600px;
   height: 600px;
 }
+.card-img-top {
+  object-fit: cover;
+}
 
 
 
