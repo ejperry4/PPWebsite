@@ -16,8 +16,12 @@
     padding: 5px;
     margin: 0px;
 }
-.card {
-  
+.card-body > h3 {
+    font-size: 23px;
+}
+
+.card-body > p {
+
 }
 
 article
