@@ -23,4 +23,7 @@ article {
 .carousel-item > img {
   margin-left: auto;
   margin-right: auto;
+  height: 50%;
+  width: 50%;
+  max-height: 500px;
   display: block;
