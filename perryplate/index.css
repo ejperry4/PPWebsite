@@ -203,7 +203,7 @@ nav > a:hover {
   padding: 25px 0;
   min-height: 0vh;
 }
-#hours {
+.hours {
   color: white;
   text-align: center;
 
