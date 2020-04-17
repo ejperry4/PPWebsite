@@ -321,13 +321,13 @@ nav > a:hover {
 }
 
 .students {
-  background-color: white;
   padding: 10px;
   padding-bottom: 20px;;
 }
 
 .cards {
   height: 100%;
+  background-color: white;
 }
 
 .cards > img {
