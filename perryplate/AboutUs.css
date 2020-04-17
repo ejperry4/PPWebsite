@@ -6,3 +6,21 @@ article {
 	margin: 15px;
 	width: 600px;
 }
+.mycarousel {
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-indicators {
+  position: relative;
+}
+
+.carousel-control-prev-icon,  .carousel-control-next-icon {
+  position: ;
+}
+
+.carousel-item > img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
