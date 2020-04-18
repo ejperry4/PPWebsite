@@ -20,6 +20,12 @@ body {
   *zoom: 1;
 }
 
+.logo_photo > img {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
 .clearfix:before, .clearfix:after {
   display: table;
   line-height: 0;
@@ -32,7 +38,7 @@ body {
 
 .container {
     width: 100%;
-    margin: 0 auto
+    margin: 0 auto;
 
 }
 
@@ -156,7 +162,7 @@ nav > a:hover {
 }
 
 .picturecontainer { 
-    background-image: url(PP_Photos/PPFrontWindowFromInside.jpg);
+    background-image: url(PP_Photos/PPFrontWindowFromInside.jpg); 
     background-repeat: no-repeat;
     background-size: 100%;
 
@@ -336,19 +342,4 @@ nav > a:hover {
 .cards > img {
   width: 100%;
   height: 55%;
-
 }
-footer {
-  background-color: rgb(46,56,91);;
-  color: #d5d5d5;
-  padding-top: 2rem;
-}
-hr.light{
-  border-top: 1px solid #d5d5d5;
-  width: 75%;
-  margin-top: .8rem;
-  margin-bottom: 1rem;
-}
-
-
-
