@@ -13,7 +13,20 @@ body {
 
 
 }
-
+footer {
+  background:rgb(46,56,91);
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+footer a{
+  color: #d5d5d5;
+}
+hr {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
 /* Begin CSS For Jumbotron and Navigational Control */
 
 .clearfix {
