@@ -1,24 +1,11 @@
-article {
-	display: inline-block;
-	vertical-align: middle;
-	text-align: justify;
-	border: 2px solid #ddd;
-	margin: 15px;
-	width: 600px;
+.info {
+	text-align: center;
 }
 .mycarousel {
   margin-top: 50px;
   width: 100%;
   height: 100%;
 }
-
-/* .carousel-indicators {
-  position: relative;
-}
-
-.carousel-control-prev-icon,  .carousel-control-next-icon {
-  position: ;
-} */
 
 .carousel-item > img {
   margin-left: auto;
@@ -27,3 +14,4 @@ article {
   width: 50%;
   display: block;
 }
+
