@@ -29,7 +29,7 @@ hr {
 }
 .social a {
   font-size: 4.5em;
-  padding: 3em;
+  padding: 1em;
 }
 
 .fa-facebook {
@@ -42,9 +42,9 @@ hr {
 .fa-instagram {
   color: #517fa4;
 }
-.fa-facebook : hover, 
-.fa-twitter : hover, 
-.fa-instagram : hover {
+.fa-facebook: hover, 
+.fa-twitter: hover, 
+.fa-instagram: hover {
   color: #d5d5d5;
 }
 /* Begin CSS For Jumbotron and Navigational Control */
