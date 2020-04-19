@@ -90,6 +90,7 @@ hr {
 .header-right {
     width: 100%;
     text-align: center;
+    overflow: hidden;
 }
 
 #open {
@@ -347,9 +348,15 @@ nav > a:hover {
 }
 
 .buttons > button {
+  height: 75px;
+  width: 200px;
+  background-color: rgb(125,181,213);
   color: hsl(227, 32.8%, 26.9%);
-  margin: 10px;
-  padding: 20px;
+  margin: 30px;
+  padding: 10px;
+  font-size: 25px
+  
+
 }
 
 .buttons > button:hover {
@@ -372,18 +379,18 @@ nav > a:hover {
 
 .cards {
   height: 100%;
-  width: 90%;
   border: 1px solid grey;
   border-radius: 5px;
   background-color: white;
-  margin-left: auto;
-  margin-right: auto;
+
 }
 
 .cards > img {
-  width: 90%;
+  width: 100%;
   height: 55%;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
+
+}
+.logo > img {
+  width: 50%;
+  height: 50%;
 }
