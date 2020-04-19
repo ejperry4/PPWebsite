@@ -13,40 +13,7 @@ body {
 
 
 }
-footer {
-  background:rgb(46,56,91);
-  color: #d5d5d5;
-  padding-top: 2rem;
-}
-footer a{
-  color: #d5d5d5;
-}
-hr {
-  border-top: 1px solid #d5d5d5;
-  width: 100%;
-  margin-top: .8rem;
-  margin-bottom: 1rem;
-}
-.social a {
-  font-size: 4.5em;
-  padding: 3em;
-}
 
-.fa-facebook {
-  color: #3b5998;
-
-}
-.fa-twitter {
-  color: #00aced;
-}
-.fa-instagram {
-  color: #517fa4;
-}
-.fa-facebook : hover, 
-.fa-twitter : hover, 
-.fa-instagram : hover {
-  color: #d5d5d5;
-}
 /* Begin CSS For Jumbotron and Navigational Control */
 
 .clearfix {
@@ -215,14 +182,6 @@ nav > a:hover {
   height: 100%;
 }
 
-.carousel-indicators {
-  position: relative;
-}
-
-.carousel-control-prev-icon,  .carousel-control-next-icon {
-  position: ;
-}
-
 .carousel-item > img {
   margin-left: auto;
   margin-right: auto;
@@ -239,6 +198,9 @@ nav > a:hover {
 
 }
 
+
+
+
 #bottom {
   box-sizing: border-box;
   padding: 25px 0;
@@ -246,7 +208,7 @@ nav > a:hover {
 }
 
 .hours {
-  background-color: rgb(237,237,238);
+  background-color: white;
   color: rgb(46,56,91);
 }
 
@@ -353,13 +315,11 @@ nav > a:hover {
   z-index: -1;
   text-align: center;
 }
-.underpage > a {
-  margin-top: 50px;
-  font-size: 30px;
-  text-decoration: none;
-  display: inline-block;
+
+.announce > h3 {
   color: rgb(46,56,91);
 }
+
 .display-4 {
   color: white;
   padding: 10px;
@@ -381,4 +341,16 @@ nav > a:hover {
 .cards > img {
   width: 100%;
   height: 55%;
+}
+
+.buttons > button {
+  padding: 10px;
+  margin: 10px;
+  color: hsl(227, 32.8%, 26.9%);;
+}
+
+.buttons > button:hover {
+  background-color: hsl(227, 32.8%, 26.9%);
+  color: rgb(117,213,239);
+  -webkit-transition: all .3s ease;
 }
