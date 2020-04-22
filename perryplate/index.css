@@ -188,7 +188,9 @@ nav > a:hover {
         width: 100%;
         text-align: center;
     }
-}
+
+  }
+
     
     
 /* Begin CSS For Main Part of Page Containing Carousel and Headings */
@@ -238,7 +240,9 @@ nav > a:hover {
 .hours {
   background-color: rgb(237,237,238);
   color: rgb(46,56,91);
+  padding: 10px;
 }
+
 
 .hours > h4 {
   color: rgb(46,56,91);
@@ -374,6 +378,7 @@ nav > a:hover {
 
 .students {
   /* padding: 10px; */
+  padding-top: 10px;
   padding-bottom: 20px;
   margin-top: 30%;
 }
@@ -394,4 +399,28 @@ nav > a:hover {
 .logo > img {
   width: 50%;
   height: 50%;
+}
+
+.header-right > nav > ul > li > a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(46,56,91);
+}
+nav > ul > li > a {
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 40px;
+    padding: 0 2em;
+    -webkit-transition: all .3s ease;
+}
+
+nav > ul > li > a {
+  width: 100%;
+  text-align: center;
+}
+
+nav > ul > li > a:hover {
+    background: rgb(117,213,239);
+    color: rgb(46,56,91);
 }
