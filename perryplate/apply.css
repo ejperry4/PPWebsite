@@ -1,0 +1,21 @@
+main {
+	text-align: center;
+}
+.buttonsapply > a > button:hover {
+  background-color: hsl(227, 32.8%, 26.9%);
+  color: rgb(117,213,239);
+  -webkit-transition: all .3s ease;
+
+}
+.buttonsapply > a > button {
+  height: 75px;
+  width: 200px;
+  background-color: white;
+  color: hsl(227, 32.8%, 26.9%);
+  margin: 30px;
+  padding: 10px;
+  font-size: 25px
+}
+.buttonsapply {
+	display: inline-block;
+ }
